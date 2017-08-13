@@ -1,0 +1,71 @@
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+      background-size: cover;
+      font: Open Sans (Google Font: https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans)
+      height: 500px;
+}
+
+#container {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+  float: left;
+}
+
+
+header p {
+  text-align: center;
+  margin-left: 600px;
+  font-size: 14px;
+  border-radius: 5px;
+  background: yellow;
+  width: 100px;
+  font-weight: bold;
+  padding: 5px;
+  color: black;
+  margin-bottom: 300px;
+  float: left;
+}
+
+header h1{
+      margin-bottom: 300px;
+      margin-left: 20px;
+      margin-top: 20px;
+      font-size: 24px;
+      font-weight: bolder;
+      color: white;
+     
+}
+
+header h2 {
+  font-size: 24px;
+  text-align: center;
+  font-weight: semibold;
+  margin-bottom: 15px;
+  color: white;
+  margin-bottom: 50px;
+
+}
+
+section {
+	float:left;
+	
+}
+
+#main 
+{
+  width: 100%;
+  margin: 10px;
+  
+  float: left;
+}
+
+#block {
+	width: 100%;
+	float: left;
+}
