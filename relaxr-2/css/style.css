@@ -1,0 +1,242 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+     column-gap: 20px;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     background-color: #ccc;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+  
+}
+
+header {
+  height: 100px;
+  margin:0px;
+  background-color: #033048;
+}
+
+#relax {
+  color: white;
+  font-weight: bolder;
+  font-size: 24px;
+  padding-left: 40px;
+  padding-top: 40px;
+  float: left;
+  
+}
+#menu {
+  list-style-type: none;
+  margin: 0px;
+  padding-top: 40px;
+  height: 20px;
+  padding-right: 20px;
+ color: #f9e42e;
+  width: 100%;
+}
+
+#menu ul {
+  float: right;
+  margin: 0px;
+}
+
+ul.menu {
+  float: right;
+}
+
+#menu li {
+  float: left;
+  height: 10px;
+  line-height: 0px;
+  font-weight: bold;
+
+}
+
+#menu li a {
+  display: block;
+  color: #f9e42e;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#menu li a:hover {
+  color: #c00;
+
+}
+
+section.article {
+  width: 700px;
+  margin: 20px;
+  float: left;
+
+}
+
+section h1 {
+  font-size: 24px;
+  font-weight: bolder;
+
+}
+
+.style1 {
+  border-bottom: 1px solid black;
+}
+
+.read {
+  float: right;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px;
+  color: #033048;
+}
+
+.read a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #033048;
+}
+
+aside h1 {
+  font-size: 24px;
+  padding-top: 20px;
+  font-weight: bolder;
+}
+
+#learn {
+  font-weight: bold;
+  list-style-type: none;
+
+}
+
+#learn a {
+  text-decoration: none;
+}
+
+#image {
+  float: right;
+  clear: both;
+  margin: 0;
+  padding: 0;
+}
+
+#signup {
+  width: 100%;
+  background-color: yellow;
+  float: left;
+  clear: both;
+  height: 55px;
+  padding: 5px 15px;
+  clear: both;
+  text-align: center;
+
+
+
+
+}
+
+.bg {
+  border-radius: 2px;
+  background-color: grey;
+  width: 20%;
+  margin-left: 350px;
+  padding: 5px;
+  margin-top: 10px;
+  clear: both;
+}
+
+footer {
+  float: left;
+  font-size: 14px;
+  clear: both;
+  height: 250px;
+  background-color: black;
+  color: white;
+  width: 100%;
+
+
+}
+
+
+footer h1 {
+  font-size: 24px;
+  color: yellow;
+  font-weight: bolder;
+  margin-top: 70px;
+}
+.ft {
+  
+  width: 20%;
+  margin-left: 400px;
+  padding: 5px;
+  margin-top: 10px;
+  clear: both;
+}
+footer img {
+  clear: both;
+  float: left;
+  padding: 0px;
+  margin: 0px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
