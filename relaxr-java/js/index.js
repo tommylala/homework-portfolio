@@ -1,31 +1,31 @@
 $(document).ready(function(){
  
- $('.read-more').click(showMore);
- $('.read-less').click(showLess);
- $('.learn-more').click(learnMore);
- $('.learn-less').click(learnLess);
+ $('.readmore').click(showMore);
+ $('.readless').click(showLess);
+ $('.learnmore').click(learnMore);
+ $('.learnless').click(learnLess);
  
  
  function showMore(){
  $('#readMoreText').slideDown();
- $('.read-less').show();
- $('.read-more').hide();
+ $('.readless').show();
+ $('.readmore').hide();
  }
  
  function showLess(){
  $('#readMoreText').slideUp();
- $('.read-more').show();
- $('.read-less').hide();	
+ $('.readmore').show();
+ $('.readless').hide();	
  }
  
  function learnMore(){
  $('#learnMoreText').slideDown();
- $('.learn-less').show();
- $('.learn-more').hide();
+ $('.learnless').show();
+ $('.learnmore').hide();
  }
  
  function learnLess(){
  $('#learnMoreText').slideUp();
- $('.learn-more').show();
- $('.learn-less').hide();
+ $('.learnmore').show();
+ $('.learnless').hide();
  }
