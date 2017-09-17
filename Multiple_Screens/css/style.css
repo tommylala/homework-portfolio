@@ -228,6 +228,7 @@ blockquote span {
   text-align: center;
   display: block;
   margin: 0 auto;
+  float: left;
 }
 .yellow {
   background: #f9e42e;
